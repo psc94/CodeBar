@@ -72,7 +72,7 @@ class contestmodel {
 		$stmt -> execute();
 	}
 
-	//for time
+	//for countdown time
 	public function getTime($contest) {
 		$stmt = $this -> conn -> db -> prepare("SELECT * FROM setup_contest WHERE contestname=?");
 		$stmt -> bind_param('s', $contest);

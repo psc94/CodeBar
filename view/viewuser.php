@@ -1,4 +1,6 @@
 <?php
+$page = $_SERVER['PHP_SELF'];
+$sec="200";
 /*
  * 
  * 
@@ -12,6 +14,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
 		<title>CodeBar</title>
 		<?php
 		include 'depend.php';

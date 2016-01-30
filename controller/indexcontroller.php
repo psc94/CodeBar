@@ -30,11 +30,7 @@ class indexcontroller {
 		$presentcontest = $this -> conn -> fetch_present_contest();
 		$futurecontest = $this -> conn -> fetch_future_contest();
 		$pastcontest = $this -> conn -> fetch_past_contest();
-		/*if ($msg) {
-			echo 'Connection Established ';
-		} else {
-			echo 'Connection could not established';
-		}*/
+		
 		if (isset($_POST['login'])) {
 			$this -> validateuser();
 		}

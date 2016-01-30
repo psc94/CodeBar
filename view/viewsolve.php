@@ -96,7 +96,14 @@
 				</div>
 				</div>
 				<div class="col-md-2">
-
+					<div>
+						<div align="center">
+							<p>
+								<strong>Contest Ends In:</strong>
+							</p>
+							<div id="timer" style="height: 50px;background-color: white;border: 0px"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -120,5 +127,10 @@
 
 		</div>
 		<!--fluid container div ends-->
+		<!--script for count down-->	
+	<script>
+	    var sec = '<?php echo ( $getTime[0]['stampend'] - time()-16200 );?>';
+		$('#timer').countdown({until: +sec,padZeroes: true,format: 'dHMS'});
+	</script>
 	</body>
 </html>

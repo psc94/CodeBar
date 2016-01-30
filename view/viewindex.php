@@ -9,6 +9,7 @@
 
 		<meta name="description" content="">
 		<meta name="author" content="LENOVO">-->
+		<link rel="shortcut icon" href="/images/fav.png" type="images/png" sizes="16x16">
 		<title>CodeBar-Home</title>
 		<?php
 		include 'depend.php';
@@ -32,11 +33,11 @@
 		</script>
 		<!--Invalidate user modal ends-->
 		<?php } else {?>
-		<div class="modal fade" id="myModal" tabindex=""  >
+		<div class="modal fade" id="myModal" tabindex="-1" data-backdrop="static" data-keyboard="false" >
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<div class="modal-header">
-
+						
 						<h1 class="modal-title text-center" id="myModalLabel">Welcome to CodeBar</h1>
 					</div>
 					<div class="modal-body">

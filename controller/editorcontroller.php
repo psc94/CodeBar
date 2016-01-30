@@ -24,6 +24,7 @@ class editorcontroller {
 	}
 
 	public function handlerequest() {
+		$getTime = $this -> conn1 -> getTime($_SESSION['contest']);
 		$this -> conn = new editormodel();
 		$status = "";
 		//$list = $this -> conn -> fetch_contest();

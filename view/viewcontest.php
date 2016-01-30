@@ -1,3 +1,7 @@
+<?php
+$page = $_SERVER['PHP_SELF'];
+$sec="200";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -10,6 +14,7 @@
 		
 		<meta name="description" content="">
 		<meta name="author" content="LENOVO">-->
+		<meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
 		<title>CodeBar-Home</title>
 		<?php
 			include 'depend.php';

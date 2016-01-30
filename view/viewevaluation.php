@@ -21,7 +21,7 @@
 			<!--navigation map -->
 			<div class="row">
             	<div class="container-fluid" style="padding-bottom:10px; margin-left: 10px;">
-            	<a href="user.php">User Dashboard</a>&nbsp;>>&nbsp;<a href="contest.php"><?php echo $_SESSION['contest'];?></a>&nbsp;>>&nbsp;<a href="#"><?php echo $_SESSION['problem'];?></a>&nbsp;>>&nbsp;<a href="editor.php">Editor</a>
+            	<a href="user.php">User Dashboard</a>&nbsp;>>&nbsp;<a href="contest.php"><?php echo $_SESSION['contest'];?></a>&nbsp;&nbsp;>>&nbsp;<a href="editor.php">Editor</a>
             	</div>
             </div>
 
